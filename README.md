@@ -1,23 +1,27 @@
-<!DOCTYPE html>
+
 <html>
 <head>
     <style type = "text/css">
           input#id{
               background-color:blue;
               color:white;
+              border-reduce:3px;
+           }
+           p{
+              color:red;
            }
     </style>
     <script type = "text/javascript">
            var i = 0;
            function increment(){
-                  var in = i++;
-                  document.getElementById("d").innerText = in;
+                  i++;
+                  document.getElementById("d").innerText = i;
            }
     </script>
 </head>
 <body>
-    <p color = "red"><marquee direction = "left"><b>It's My First Web Page</b></marquee></p>
-    <input id = "id" type = "button" value = "increment" onclick = "increment();"></input>
+    <p><b><marquee direction = "left">It's My First Web Page</marquee></b></p>
+    <input id = "id" type = "button" value = "increment" onclick = "increment();">
     <div id = "d"></div>
 </body>
 </html>
