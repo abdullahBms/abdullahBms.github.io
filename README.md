@@ -17,7 +17,7 @@
               border:3px;
               border-radius:3px;
     </style>
-    <script type = "text/javascript>
+    <script type = "text/javascript">
            var i = 0;
            function increment(){
                   i++;
