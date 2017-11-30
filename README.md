@@ -18,6 +18,10 @@
               border-radius:3px;
     </style>
     <script type = "text/javascript">
+           function h(){
+                  var now = new Date();
+                  document.getElementById("di").innerText = now;
+           }
            var i = 0;
            function increment(){
                   i++;
@@ -25,9 +29,10 @@
            }
     </script>
 </head>
-<body>
+<body onload = " h();">
     <h1><b><marquee direction = "left">It's My First Web Page</marquee></b></h1>
     <input id = "id" type = "button" value = "increment" onclick = "increment();">
     <input type = "text" id = "d" readonly = "readonly" value = "0">
+    <div id = "di"></div>
 </body>
 </html>
