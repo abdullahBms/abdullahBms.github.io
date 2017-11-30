@@ -24,7 +24,8 @@
     <script type = "text/javascript">
            function h(){
                   var now = new Date();
-                  document.getElementById("di").innerText = now;
+                  var H = now.getHours();
+                  document.getElementById("di").innerText = H;
            }
            var i = 0;
            function increment(){
