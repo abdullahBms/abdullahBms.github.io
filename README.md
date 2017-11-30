@@ -36,7 +36,7 @@
            }
     </script>
 </head>
-<body onload = "h();">
+<body onload ="h();">
     <h1><b><marquee direction = "left">It's My First Web Page</marquee></b></h1>
     <input id = "id" type = "button" value = "increment" onclick = "increment();">
     <input type = "text" id = "d" readonly = "readonly" value = "0">
