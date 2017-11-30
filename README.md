@@ -1,6 +1,7 @@
 
 <html>
-<head>
+< var now = new Date();
+           document.getElementById("di").innerText=now;ad>
     <style type = "text/css">
           input#id{
               background-color:blue;
@@ -17,14 +18,14 @@
               border:3px;
               border-radius:3px;
     </style>
-    <script type = "text/javascript">
-           var now = new Date();
-           document.getElementById("di").innerText=now;
+    <script type = "text/javascript>
            var i = 0;
            function increment(){
                   i++;
                   document.getElementById("d").value = i;
            }
+           var now = new Date();
+           document.getElementById("di").innerText=now;
     </script>
 </head>
 <body>
