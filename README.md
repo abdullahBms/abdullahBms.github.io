@@ -2,6 +2,11 @@
 <html>
 <head>
     <style type = "text/css">
+          div#di{
+              background-color:yellow;
+              color:red;
+              border-radius:3px;
+           }
           input#id{
               background-color:blue;
               color:white;
@@ -20,7 +25,11 @@
     <script type = "text/javascript">
            function h(){
                   var now = new Date();
-                  document.getElementById("di").innerText = now;
+                  var hh = now.getHours();
+                  var mm = now.getMinuyes();
+                  var ss = now.getSeconds();
+                  var hour =hh+":"+mm+":"+ss;
+                  document.getElementById("di").innerText = hour;
            }
            var i = 0;
            function increment(){
