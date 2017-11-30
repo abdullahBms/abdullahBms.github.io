@@ -25,7 +25,10 @@
            function h(){
                   var now = new Date();
                   var H = now.getHours();
-                  document.getElementById("di").innerText = H;
+                  var M = now.getMinutes();
+                  var S = now.getSeconds();
+                  document.getElementById("di").innerText = H+":"+M+":"+S;
+                  window.setTimeOut(h,1000);
            }
            var i = 0;
            function increment(){
