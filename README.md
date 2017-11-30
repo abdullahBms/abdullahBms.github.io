@@ -1,7 +1,6 @@
 
 <html>
-< var now = new Date();
-           document.getElementById("di").innerText=now;ad>
+<head>
     <style type = "text/css">
           input#id{
               background-color:blue;
