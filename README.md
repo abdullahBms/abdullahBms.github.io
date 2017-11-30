@@ -5,7 +5,6 @@
           div#di{
               background-color:yellow;
               color:red;
-              border-radius:3px;
            }
           input#id{
               background-color:blue;
@@ -28,7 +27,7 @@
                   var hh = now.getHours();
                   var mm = now.getMinuyes();
                   var ss = now.getSeconds();
-                  document.getElementById("di").innerHTML = hh+":"+mm+":"+ss;
+                  document.getElementById("di").innerHTML = hh;
            }
            var i = 0;
            function increment(){
