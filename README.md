@@ -19,7 +19,7 @@
     </style>
     <script type = "text/javascript">
            var now =new Date();
-           document.getElementById("di").innerHTML = now;
+           document.getElementById("di").innerText=now;
            var i = 0;
            function increment(){
                   i++;
@@ -31,6 +31,6 @@
     <h1><b><marquee direction = "left">It's My First Web Page</marquee></b></h1>
     <input id = "id" type = "button" value = "increment" onclick = "increment();">
     <input type = "text" id = "d" readonly = "readonly" value = "0">
-    <div id = "di"></div>
+    <div id = "di">This is some text</div>
 </body>
 </html>
