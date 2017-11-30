@@ -28,7 +28,7 @@
                   var hh = now.getHours();
                   var mm = now.getMinuyes();
                   var ss = now.getSeconds();
-                  var hour =hh+":"+mm+":"+ss;
+                  var hour = hh+":"+mm+":"+ss;
                   document.getElementById("di").innerText = hour;
            }
            var i = 0;
