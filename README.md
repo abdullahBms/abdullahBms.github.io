@@ -24,9 +24,6 @@
     <script type = "text/javascript">
            function h(){
                   var now = new Date();
-                  var hh = now.getHours();
-                  var mm = now.getMinuyes();
-                  var ss = now.getSeconds();
                   document.getElementById("di").innerText = now;
            }
            var i = 0;
