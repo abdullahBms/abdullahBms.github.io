@@ -18,7 +18,7 @@
               border-radius:3px;
     </style>
     <script type = "text/javascript">
-           var now =new Date();
+           var now = new Date();
            document.getElementById("di").innerText=now;
            var i = 0;
            function increment(){
