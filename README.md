@@ -23,8 +23,6 @@
                   i++;
                   document.getElementById("d").value = i;
            }
-           var now = new Date();
-           document.getElementById("di").innerText=now;
     </script>
 </head>
 <body>
