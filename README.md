@@ -11,7 +11,7 @@
               color:red;
            }
            body{
-              background-color:lightblue;
+              background-color:lightgreen;
            }
            input#d{
               border:3px;
@@ -29,6 +29,5 @@
     <h1><b><marquee direction = "left">It's My First Web Page</marquee></b></h1>
     <input id = "id" type = "button" value = "increment" onclick = "increment();">
     <input type = "text" id = "d" readonly = "readonly" value = "0">
-    <div id = "di">This is some text</div>
 </body>
 </html>
