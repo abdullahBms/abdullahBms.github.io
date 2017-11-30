@@ -28,8 +28,7 @@
                   var hh = now.getHours();
                   var mm = now.getMinuyes();
                   var ss = now.getSeconds();
-                  var hour = hh+":"+mm+":"+ss;
-                  document.getElementById("di").innerText = hour;
+                  document.getElementById("di").innerHTML = hh+":"+mm+":"+ss;
            }
            var i = 0;
            function increment(){
