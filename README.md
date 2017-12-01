@@ -31,7 +31,7 @@
                   var D = now.getDate();
                   document.getElementById("di").innerText = H+":"+M+":"+S+"       "+Y+"/"+MM+"/"+D;
            }
-           window.setInterval(h,2000);
+           window.setInterval(h,1000);
            var i = 0;
            function increment(){
                   i++;
