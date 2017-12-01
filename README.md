@@ -5,6 +5,7 @@
           table#di{
               color:red;
               border:4px;
+              margin_top:4px;
            }
           input#id{
               background-color:blue;
@@ -30,7 +31,7 @@
                   var Y = now.getFullYear();
                   var MM = now.getMonth();
                   var D = now.getDate();
-                  document.getElementById("di").innerText = H+":"+M+":"+S+"<br>"+Y+"/"+MM+"/"+D;
+                  document.getElementById("di").innerText = H+":"+M+":"+S+<br>+Y+"/"+MM+"/"+D;
            }
            window.setInterval(h,2000);
            var i = 0;
