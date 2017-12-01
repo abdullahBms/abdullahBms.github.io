@@ -2,10 +2,8 @@
 <html>
 <head>
     <style type = "text/css">
-          table#di{
+          div#di{
               color:red;
-              border:4px;
-              margin_top:4px;
            }
           input#id{
               background-color:blue;
@@ -45,6 +43,6 @@
     <h1><b><marquee direction = "left">It's My First Web Page</marquee></b></h1>
     <input id = "id" type = "button" value = "increment" onclick = "increment();">
     <input type = "text" id = "d" readonly = "readonly" value = "0">
-    <table id = "di"></table>
+    <div id = "di"></div>
 </body>
 </html>
