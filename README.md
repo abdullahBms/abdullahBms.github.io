@@ -2,8 +2,9 @@
 <html>
 <head>
     <style type = "text/css">
-          div#di{
+          span#di{
               color:red;
+              background-color:yellow;
            }
           input#id{
               background-color:blue;
@@ -42,7 +43,7 @@
 <body onload ="h();">
     <h1><b><marquee direction = "left">It's My First Web Page</marquee></b></h1>
     <input id = "id" type = "button" value = "increment" onclick = "increment();">
-    <input type = "text" id = "d" readonly = "readonly" value = "0">
-    <div id = "di"></div>
+    <input type = "text" id = "d" readonly = "readonly" value = "0"><br>
+    <span id = "di"></span>
 </body>
 </html>
