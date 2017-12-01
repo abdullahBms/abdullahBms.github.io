@@ -29,7 +29,7 @@
                   var Y = now.getFullYear();
                   var MM = now.getMonth();
                   var D = now.getDate();
-                  document.getElementById("di").innerText = H+":"+M+":"+S+"::"+Y+"/"+MM+"/"+D;
+                  document.getElementById("di").innerText = H+":"+M+":"+S+"  :  "+Y+"/"+MM+"/"+D;
            }
            window.setInterval(h,1000);
            var i = 0;
