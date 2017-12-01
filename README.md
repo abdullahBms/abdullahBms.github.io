@@ -2,8 +2,9 @@
 <html>
 <head>
     <style type = "text/css">
-          div#di{
+          table#di{
               color:red;
+              border:4px;
            }
           input#id{
               background-color:blue;
@@ -29,9 +30,9 @@
                   var Y = now.getFullYear();
                   var MM = now.getMonth();
                   var D = now.getDate();
-                  document.getElementById("di").innerText = H+":"+M+":"+S+"       "+Y+"/"+MM+"/"+D;
+                  document.getElementById("di").innerText = H+":"+M+":"+S+"<br>"+Y+"/"+MM+"/"+D;
            }
-           window.setInterval(h,1000);
+           window.setInterval(h,2000);
            var i = 0;
            function increment(){
                   i++;
@@ -43,6 +44,6 @@
     <h1><b><marquee direction = "left">It's My First Web Page</marquee></b></h1>
     <input id = "id" type = "button" value = "increment" onclick = "increment();">
     <input type = "text" id = "d" readonly = "readonly" value = "0">
-    <div id = "di"></div>
+    <table id = "di"></table>
 </body>
 </html>
