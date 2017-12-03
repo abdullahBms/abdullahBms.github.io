@@ -42,8 +42,9 @@
 </head>
 <body onload ="h();">
     <h1><b><marquee direction = "left">It's My First Web Page</marquee></b></h1>
+    <span id = "di"></span>
     <input id = "id" type = "button" value = "increment" onclick = "increment();">
     <input type = "text" id = "d" readonly = "readonly" value = "0"><br>
-    <span id = "di"></span>
+    <progress max = "100" value ="80"></progress>
 </body>
 </html>
